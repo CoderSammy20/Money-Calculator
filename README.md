@@ -1,4 +1,4 @@
-# MoneyCalducator
+# Money-Calculator
 
 A simple and effective Command-Line Interface (CLI) tool designed to help you keep track of your finances.
 
