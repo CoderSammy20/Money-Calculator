@@ -41,9 +41,9 @@ Welcome to MoneyCalducator!
 3. Exit
 
 Choose an option: 1
-Enter your savings goal: 5000
-Enter how many months you have: 10
-You need to save 500.00 per month to reach your goal.
+Enter your Total Money: 200
+Enter The cost of the Item: 300
+You still need 100 to save up!
 ```
 
 ## License
