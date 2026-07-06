@@ -2,8 +2,8 @@
 def main():
     print("Welcome to the Money Calculator!")
     print("Please select an option:")
-    print("1. Option A")
-    print("2. Option B")
+    print("1. Savings Calculator")
+    print("2. Budget Checker")
     print("3. EXIT")
 
     choice = input("Enter your choice (1, 2, or 3): ")
