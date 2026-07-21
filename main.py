@@ -24,13 +24,13 @@ def OptionA():
 
 
     try:
-        Money_inpout = input("Enter your total money: ")
-        Money = int(Money_inpout)
+        money_input = input("Enter your total money: ")
+        money = int(money_input)
 
         cost_input = input("Enter the cost of the item: ")
         cost = int(cost_input)
 
-        answer = cost - Money
+        answer = cost - money
         print(f"You need to save up: {answer}")
 
         exit_input = input("Do you want to exit? (yes/no): ")
@@ -41,7 +41,7 @@ def OptionA():
         else:
          print("Invalid input. Returning to main menu.")
         main()
-    except ValueError:
+    except value_error:
         print("Invalid input. Please enter numeric values.")
         OptionA()
 
@@ -73,15 +73,15 @@ def OptionB():
             print("Everything is fine! You have money left!")
 
     
-            excit_input = input("Do you want to exit? (yes/no): ")
-            if excit_input == "yes":
+            exit_input = input("Do you want to exit? (yes/no): ")
+            if exit_input == "yes":
                 Exit()
-            elif excit_input == "no":
+            elif exit_input == "no":
                 main()
             else:
                 print("Invalid input. Returning to main menu.")
                 main()
-    except ValueError:
+    except value_error:
         print("Invalid input. Please enter numeric values.")
         OptionB()
 
