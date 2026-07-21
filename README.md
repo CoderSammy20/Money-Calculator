@@ -13,12 +13,12 @@ You need Python 3.x installed to run this program.
 ## Installation & Usage
 1. Clone the repository:
 ```bash
-   git clone https://github.com/CoderSammy20/MoneyCalducator-.git
+   git clone https://github.com/CoderSammy20/Money-Calculator.git
 ```
 
 2. Navigate into the project directory:
 ```bash
-   cd MoneyCalducator-
+   cd Money-Calculator
 ```
 
 3. Run the program:
@@ -35,7 +35,7 @@ You need Python 3.x installed to run this program.
 ```bash
 $ python Money.py
 
-Welcome to MoneyCalducator!
+Welcome to Money-Calculator!
 1. Savings Calculator
 2. Budget Checker
 3. Exit
